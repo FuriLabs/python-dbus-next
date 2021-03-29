@@ -1,0 +1,26 @@
+Source: python-dbus-next
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               dh-python,
+               python3,
+               python3-setuptools,
+               python3-pytest,
+               python3-pytest-asyncio,
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian/python-dbus-next
+Vcs-Git: https://github.com/droidian/python-dbus-next.git
+
+Package: python3-dbus-next
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+Description: The next great DBus library for Python
+ python-dbus-next is a Python library for DBus that aims to be a fully
+ featured high level library primarily geared towards integration
+ of applications into Linux desktop and mobile environments.
+ .
+ Desktop application developers can use this library for integrating their
+ applications into desktop environments by implementing common DBus
+ standard interfaces or creating custom plugin interfaces.
