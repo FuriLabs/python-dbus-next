@@ -124,3 +124,6 @@ dmypy.json
 
 # vim
 *.swp
+
+# Added by Droidian
+!.circleci/
