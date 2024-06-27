@@ -4,10 +4,11 @@ Source: https://github.com/altdesktop/python-dbus-next
 
 Files: *
 Copyright: 2019-2021 Tony Crisci
+           2024 Bardia Moshiri
 License: MIT
 
 Files: debian/*
-Copyright: 2021 Eugenio "g7" Paolantonio <me@medesimo.eu>
+Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 License: MIT

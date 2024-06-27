@@ -1,16 +1,16 @@
 Source: python-dbus-next
-Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3,
                python3-setuptools,
                python3-pytest,
                python3-pytest-asyncio,
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/python-dbus-next
-Vcs-Git: https://github.com/droidian/python-dbus-next.git
+Vcs-Browser: https://github.com/furilabs/python-dbus-next
+Vcs-Git: https://github.com/furilabs/python-dbus-next.git
 
 Package: python3-dbus-next
 Architecture: all
