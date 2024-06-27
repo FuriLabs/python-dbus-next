@@ -3,7 +3,7 @@ from .errors import InvalidBusNameError, InvalidObjectPathError, InvalidInterfac
 
 _bus_name_re = re.compile(r'^[A-Za-z_-][A-Za-z0-9_-]*$')
 _path_re = re.compile(r'^[A-Za-z0-9_]+$')
-_element_re = re.compile(r'^[A-Za-z_][A-Za-z0-9_]*$')
+_element_re = re.compile(r'^[A-Za-z_][A-Za-z0-9_ ]*$')
 
 
 def is_bus_name_valid(name: str) -> bool:
